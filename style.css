@@ -1,0 +1,166 @@
+<<<<<<< HEAD
+/* Estilos para as tabelas */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+}
+
+table tr:nth-child(even) {
+    background-color: #e9ecef;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-top: 20px;
+}
+=======
+/* Estilo para o título principal */
+#main-heading {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para o subtítulo */
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do cabeçalho da tabela */
+table thead th {
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+/* Estilo do corpo da tabela */
+table tbody td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo alternado para as linhas */
+table tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+
+/* Última linha estilizada */
+table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Ajustes para bordas */
+table td, table th {
+    border: 1px solid #ddd;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 12px;
+    background-color: #ffefd5; /* Fundo amarelo claro */
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Isso garante que o #app ocupe a largura total */
+    text-align: center; /* Garante que o conteúdo interno seja centralizado */
+    margin: 0 auto; /* Centraliza o #app se o conteúdo tiver largura fixa */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%; /* Ajuste a largura da tabela conforme necessário */
+    margin: 20px auto; /* Centraliza a tabela horizontalmente */
+    background-color: #ffd700; /* Dourado */
+    border: 2px solid #d2691e; /* Marrom escuro */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px 20px;
+    text-align: center;
+    border: 1px solid #d2691e; /* Marrom escuro */
+    color: #2f4f4f; /* Cinza escuro */
+}
+
+th {
+    background-color: #ff4500; /* Laranja vibrante */
+    color: white; /* Texto branco */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff5ee; /* Rosa claro */
+    font-size: 16px;
+}
+
+#carregar {
+    margin: 20px 0;
+    padding: 12px 25px;
+    background-color: #ff6347; /* Tomate */
+    color: white;
+    border: 2px solid #d2691e; /* Marrom escuro */
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#carregar:hover {
+    background-color: #ff4500; /* Laranja vibrante */
+    transform: scale(1.1); /* Pequeno zoom */
+}
+>>>>>>> ff6a3e59b393057e475d5aa00fc2687bbf3e9939
